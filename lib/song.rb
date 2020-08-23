@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
 
       attr_accessor :artist, :name, :genre
@@ -8,6 +10,7 @@ class Song
     @name = name
     @genre = genre
     save
+    binding.pry
   end
 
   def save
