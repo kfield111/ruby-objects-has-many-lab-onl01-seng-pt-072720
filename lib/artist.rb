@@ -5,7 +5,6 @@ class Artist
 
   def initialize(name)
     @name = name
-        binding.pry
   end
 
   def add_song(song)
