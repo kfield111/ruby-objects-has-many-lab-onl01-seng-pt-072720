@@ -19,8 +19,8 @@ class Post
     @@all
   end
 
-  def artist_name
-    if self.artist == nil
+  def author_name
+    if self.author == nil
       return nil
     else
       self.artist.name
